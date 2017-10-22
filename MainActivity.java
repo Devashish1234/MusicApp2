@@ -6,6 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.android.musicapp.Artist_Albums;
+import com.example.android.musicapp.Now_Playing;
+import com.example.android.musicapp.Play_Online;
+import com.example.android.musicapp.Playlist;
+import com.example.android.musicapp.Search_Online;
+import com.example.android.musicapp.Search;
+
 import static android.R.attr.start;
 import static android.icu.lang.UCharacter.GraphemeClusterBreak.V;
 import static com.example.android.musicapp.R.id.now_Playing;
@@ -18,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //here finding the view that shows now playing activity
-        Button now_playing_activity = (Button) findViewById(now_Playing);
+        Button now_playing_activity = (Button) findViewById(R.id.now_Playing);
 //setting  click listener
         now_playing_activity.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the now playing button is clicked on.
@@ -50,9 +57,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         //finding search activity
-        Button search_activity = (Button) findViewById(R.id.search);
+        Button Search_Activity = (Button) findViewById(R.id.Search);
         //setting click listener
-        search_activity.setOnClickListener(new View.OnClickListener() {
+        Search_Activity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent search_Intent = new Intent(MainActivity.this, Search.class);
