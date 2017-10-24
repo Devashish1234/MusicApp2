@@ -8,6 +8,6 @@ public class Buy_Songs extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_buy__songs);
+        setContentView(R.layout.activity_buy__songs);//hjggjhf
     }
 }
