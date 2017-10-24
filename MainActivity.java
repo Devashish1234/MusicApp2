@@ -1,21 +1,10 @@
 package com.example.android.musicapp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-
-import com.example.android.musicapp.Artist_Albums;
-import com.example.android.musicapp.Now_Playing;
-import com.example.android.musicapp.Play_Online;
-import com.example.android.musicapp.Playlist;
-import com.example.android.musicapp.Search_Online;
-import com.example.android.musicapp.Search;
-
-import static android.R.attr.start;
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.V;
-import static com.example.android.musicapp.R.id.now_Playing;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -75,6 +64,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent Play_Online_Intent = new Intent(MainActivity.this, Play_Online.class);
                 startActivity(Play_Online_Intent);
             }
-        });
+        });//change code
     }
 }
