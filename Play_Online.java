@@ -21,5 +21,13 @@ public class Play_Online extends AppCompatActivity {
                 startActivity(payment_songs_intent);
             }
         });
+        Button back = (Button) findViewById(R.id.backToLibrary);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent backToLibrary_intent = new Intent(Play_Online.this, MainActivity.class);
+                startActivity(backToLibrary_intent);
+            }
+        });
     }
 }
