@@ -16,7 +16,7 @@ public class Artist_Albums extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent backToLibrary_intent = new Intent(Artist_Albums.this, MainActivity.class);
+                Intent backToLibrary_intent = new Intent(Artist_Albums.this, MainActivity.class); // intent to main activity
                 startActivity(backToLibrary_intent);
             }
         });

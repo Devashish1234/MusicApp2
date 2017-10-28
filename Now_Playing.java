@@ -16,7 +16,7 @@ public class Now_Playing extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent backToLibrary_intent = new Intent(Now_Playing.this, MainActivity.class);
+                Intent backToLibrary_intent = new Intent(Now_Playing.this, MainActivity.class);// intent to main activity
                 startActivity(backToLibrary_intent);
             }
         });

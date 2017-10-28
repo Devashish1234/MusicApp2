@@ -26,7 +26,7 @@ public class Search extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent backToLibrary_intent = new Intent(Search.this, MainActivity.class);
+                Intent backToLibrary_intent = new Intent(Search.this, MainActivity.class);// intent to main activity
                 startActivity(backToLibrary_intent);
             }
         });

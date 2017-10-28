@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(playlist_activity);
             }
         });
-        //here finding artist album activity yrs
+        //here finding artist album activity
         Button artist_album_activity = (Button) findViewById(R.id.ArtistsAndAlbums);
         //setting click listener
         artist_album_activity.setOnClickListener(new View.OnClickListener() {
