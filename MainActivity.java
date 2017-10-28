@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(playing_Intent);
             }
         });
-        //here finding playlist activity yes
+        //here finding playlist activity yes yes
         Button playlist_activity = (Button) findViewById(R.id.Playlist);
         //setting click listener for playlist button
         playlist_activity.setOnClickListener(new View.OnClickListener(){
