@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //here finding the view that shows now playing activity
+        //here finding the view that shows now playing activity yes
         Button now_playing_activity = (Button) findViewById(R.id.now_Playing);
 //setting  click listener
         now_playing_activity.setOnClickListener(new View.OnClickListener() {
